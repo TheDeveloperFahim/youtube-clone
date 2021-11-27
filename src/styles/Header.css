@@ -1,0 +1,85 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #fff;
+}
+
+.header_left,
+.header_input,
+.header_icons {
+  display: flex;
+  align-items: center;
+}
+
+.header_left,
+.header_input,
+.header_icons svg {
+  color: #5a5a5a;
+}
+
+.header_left > svg {
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.header_logo {
+  width: 100px;
+  object-fit: contain;
+  margin-left: 20px;
+}
+
+.header_input {
+  width: 45%;
+  margin-left: -3rem;
+}
+
+.header_input > input {
+  width: 573px;
+  padding: 10px 12px;
+  border: 1px solid #cccccc;
+  font-size: 16px;
+  outline: none;
+  border-radius: 3px 0 0 3px;
+  transition: 0.3s;
+}
+
+.header_input > input:focus {
+  border-color: #1b60b5;
+}
+
+.header_input  button.search_btn {
+  background: #f8f8f8;
+  padding: 7px 17px;
+  border: 1px solid #d3d3d3;
+  font-size: 25px;
+  color: #938f8f;
+  cursor: pointer;
+  transition: 0.3s;
+  height: 41px;
+  border-radius: 0 5px 5px 0 !important;
+}
+
+.header_input > button.search_btn:hover {
+  background: #f0f0f0;
+}
+
+.header_input > svg.microphone_icon {
+  font-size: 25px;
+  margin-left: 11px;
+  cursor: pointer;
+}
+
+.header_icons {
+  padding: 0 10px;
+}
+
+.header_icons svg {
+  display: block;
+  margin-right: 25px;
+  cursor: pointer;
+}
